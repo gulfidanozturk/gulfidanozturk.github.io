@@ -122,6 +122,7 @@ a {
 .bd {
   width: 142%;
   height: 142%;
+  padding-top:10px;
   position: relative;
   left: -21%;
   top: -21%;
