@@ -70,7 +70,7 @@ a {
 
 
 .container2 {
-  height: 30vh;
+  height: 45vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,6 +123,7 @@ a {
   width: 142%;
   height: 142%;
   position: relative;
+  padding-top: 10px;
   left: -21%;
   top: -21%;
   background: url("./images/IMG_6508.JPG");
@@ -354,7 +355,7 @@ a {
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
     transition: color 0.3s;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.04em;
    
 }
@@ -401,8 +402,8 @@ a {
 
 .logo a {
     display: block;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 25px;
+    color: #ffffffb3;
+    font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
@@ -487,20 +488,20 @@ a {
 
 .new-nm{
     color: black !important;
+    font-size: 25px !important;
 }
 .introduce h2 {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     letter-spacing: 0.03em;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 
 }
 
 .introduce p {
-    font-size: 20px;
-    margin-bottom: 20px;
-    line-height: 26px;
-    letter-spacing: 0.5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 200%;
     text-align:left;
     color: white;
 }
@@ -521,7 +522,7 @@ a {
 }
 .presonal-inform ul li a:link {
   color:white !important;
-  font-size: 20px;
+  font-size: 14px;
   background-color: transparent;
   text-decoration: none;
 }
@@ -546,29 +547,19 @@ a {
     width: 120px;
     text-transform: capitalize;
     color:white;
-    font-size: 20px;
+    font-size: 12px !important;
 }
 
-.introduce .presonal-inform li {
-    text-transform: capitalize;
-    font-size: 20px;
-    font-weight: 400;
-     margin-bottom: 20px;
-}
+
 .presonal-inform{
     padding-top: 30px;
     line-height: 30px;
 }
 .presonal-inform li {
     padding: 5px 0;
-    font-size: 20px;
+    font-size: 14px;
 }
-.presonal-inform i{
-    font-size: 21px;
-    padding-right: 10px;
-    padding-top: 4px;
-    float: left;
-}
+
 /*========== /about==========*/
 
 
@@ -626,10 +617,10 @@ a {
 }
 
 .rex-item h3 {
-    font-size: 22px;
+    font-size: 20px;
 }
 .rex-item h4 {
-    font-size: 27px;
+    font-size: 20px;
     color: #4c5667;
     letter-spacing: 1px;
     margin-top: 10px;
@@ -638,7 +629,7 @@ a {
 
 .rex-item p {
     line-height: 35px;
-    font-size: 20px;
+    font-size: 16px !important;
 }
 
 .rex-left {
@@ -850,7 +841,7 @@ video {
         font-size: 20px;
     }
     .rex-item h4 {
-        font-size: 15px;
+        font-size: 12px;
     }
     .rex-item p {
         font-size: 13px;
@@ -929,7 +920,7 @@ video {
     .new-anm{
         font-weight: bold;
         color:black!important;
-        font-size: 25px !important;
+        font-size: 16px !important;
         letter-spacing: .8px !important;
         justify-content: center;
         text-align: center;
@@ -938,7 +929,7 @@ video {
         animation: mymove none; 
     }
     .container2 {
-        height: 25vh;
+        height: 30vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -960,5 +951,12 @@ video {
         width: 90px;
         height:20px;
     }
-        
+    .box {
+        width: 200px;
+        height: 200px;
+        border: 0px dashed black;
+        position: relative;
+    }
+   
+   
 }
