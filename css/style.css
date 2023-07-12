@@ -341,14 +341,12 @@ a {
 
 .navbar {
     position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
     top: 0;
     width: 100%;
     border-radius: 0;
     border: 0;
-    /* z-index: 200; */
+    z-index: 200;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .navbar-nav {
@@ -412,7 +410,7 @@ a {
 }
 
 .logo a {
-    /* display: block; */
+    display: block;
     color: #ffffffb3;
     font-size: 1em;
     text-transform: uppercase;
